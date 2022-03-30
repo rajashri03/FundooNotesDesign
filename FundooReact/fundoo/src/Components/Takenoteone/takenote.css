@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.note>input{
+    border:none;
+    width: 100%;
+}
+.take{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+.takenoteone
+{
+    box-shadow: 1px 1px 1px 1px #cbcbcb;
+    border: none;
+    margin: 3%;
+    width: 45%;
+    padding: 15px;
+    position: relative;
+    margin-left: 32%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    
+}
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    .takenoteone {
+         width: 69%;
+        margin-left: 24%;
+        padding: 4px 2px 4px 12px;
+        gap: 15px;
+ }
+}
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+    .takenoteone {
+        width: 69%;
+        gap: 15px;
+       margin-left: 24%;
+       padding: 4px 2px 4px 12px;
+} }
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .takenoteone {
+        width: 69%;
+        gap: 15px;
+       margin-left: 24%;
+       padding: 4px 2px 4px 12px;
+}  
+ }
+ @media only screen and (min-width : 280) {
+    body{
+        overflow: scroll;
+    }
+ }

@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.notesfooter, .notesicons img
+{
+    height: 22px;
+}
+.note>input{
+    border:none;
+    width: 100%;
+    height: 50px;
+}
+.takenotetwo
+{
+    box-shadow: 1px 1px 1px 1px #cbcbcb;
+    border: none;
+    margin: 3%;
+    width: 45%;
+    padding: 15px;
+    position: relative;
+    margin-left: 32%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+.takenotetwo .note{
+    border:none;
+    color:black;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 0px;
+}
+.take{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-end;
+    margin: 14px;
+}
+.notesbody
+{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+.notesbody>.note{
+    border:none;
+    color:black;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+
+.notesfooter
+{
+    margin-left:0px;
+    display: flex;
+    font-family:monospace;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.notesicons
+{
+    padding: 5px;
+    gap:10px;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    font-family:monospace;
+    color:grey;
+    margin-left: 0px;
+}
+@media only screen and (min-width : 320px) and (max-width : 480px)
+{
+    .takenotetwo {
+    width: 66%;
+    margin-left: 24%;
+    }
+}
+@media only screen and (min-width : 481px) and (max-width : 768px)
+{
+    .takenotetwo {
+       width: 69%;
+       margin-left: 24%;
+    }
+}
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .takenotetwo {
+        width: 69%;
+        margin-left: 24%;
+     }
+ }

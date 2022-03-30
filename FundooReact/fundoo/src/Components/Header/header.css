@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.keepimg
+{
+    height: 50px!important;
+}
+.header
+{
+    width: 100vw;
+    height: 10vh;
+    border-bottom: 1px solid grey;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+.icons img
+{
+    height: 25px;
+}
+.icon_notes img{
+    height: 22px;
+}
+.icons
+{
+    display: flex;
+    min-width: 150px;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+    margin-left:10px;
+    font-family:monospace;
+    color:grey;
+    justify-content: space-around;
+}
+.search
+{
+    width: 60%;
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 5px;
+    display:flex;
+    margin:7px 0px 7px 5%;
+    flex-direction: row;
+    background-color: #f1f3f4;
+}
+.search > input{
+    border:none;
+    width: 60%;
+    background-color: #f1f3f4;
+    margin:0px 5px 0px 15px;
+    padding: 5px 0px 5px 0px;
+    font-size: 17px;
+}
+.search > img{
+    margin:5px 5px 0px 15px;
+    padding: 5px 0px 5px 0px;
+}
+.profile
+{
+    background-color: blueviolet;
+    border-radius: 50%;
+    padding: 12px;
+    width: 15px;
+    color:white;
+}
+
+.notes{
+     border-radius: 5px;
+    height: auto;
+    margin-left: 20px;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    padding:10px;
+    width: 240px;
+    border:1px solid rgba(219, 209, 209, 0.61);
+    
+}
+.icon_notes img{
+    display:none; 
+}
+.notes:hover .icon_notes img{
+    display:block; 
+}
+.notes:hover{
+    box-shadow:2px 2px 2px 2px rgba(219, 209, 209, 0.61);
+}
+.MuiDrawer-paperAnchorTop{
+    margin-top:40px;
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) 
+{
+    .icons img 
+    {
+    height: 18px;
+    margin-right: 6px;
+    }
+    .search 
+    {
+        display:none;
+        width: 16%;
+    }
+    .icons
+    {
+        justify-content: space-around;
+        min-width: 1px;
+        gap: 9px;
+    }
+ }
+ @media only screen and (min-width : 481px) and (max-width : 768px) {
+    .search {
+        display:none;
+        width: 16%;
+    }
+    .icons{
+        min-width: 1px;
+        gap: 15px;
+    }   
+}
+ @media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .search {
+        margin: 31px 0px 23px 5%;
+        display:none;
+    }
+    .icons{
+        min-width: 1px;
+        gap: 22px;
+    }  
+ }
+ @media only screen and (max-width : 1200px) and (min-width : 1024px) {
+ 
+ }
+
+ 

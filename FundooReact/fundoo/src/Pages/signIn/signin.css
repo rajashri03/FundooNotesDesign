@@ -1,0 +1,72 @@
+body{
+    color: #202124;
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+}
+.signin{
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    display: flex;
+    flex-direction: column;
+    margin: 35px auto;
+    position: relative;
+    padding:50px;
+    width: 29vw;
+}
+.signin img{
+    width: 70px;
+    position: absolute;
+    left: 43%;top: 5%;
+}
+.signin h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.signin .acc{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color:#1a73e8;
+}
+.forget{
+margin-top: 20px;
+}
+p{
+    margin-top: 25px;
+    color: #5f6368;
+    font-size: 14px;
+}
+.signinfooter
+{
+    display: flex;
+    margin-top:25px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 414px){
+    .signin{
+        width: 78vw;
+        border:none;
+        font-size: 15px;
+
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width:1024px){
+    .signin{
+        width: 52vw;
+        font-size: 15px;
+        margin-top: 27%;
+    }
+  }
+  @media only screen and (min-width: 1025px) and (max-width:1200px){
+    .signin{
+        width: 52vw;
+        font-size: 15px;
+        margin-top: 27%;
+    }
+  }

@@ -1,0 +1,113 @@
+.signup{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin:30px auto;
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    padding:22px;
+    width: 65vw;
+    position: relative;
+}
+.textfeild1
+{
+    margin-right: 0px;
+}
+    .inputdata img
+    {
+        width: 70px;
+        position: absolute;
+    }
+    .signup h2{
+        margin-top: 10px;
+        font-weight: 400;
+    }
+    .inputdata{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+    }
+    .signupfooter
+    {
+        display: flex;
+        margin-top:25px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    a{
+        text-decoration: none;
+        font-weight: 500;
+        color:#1a73e8;
+    }
+    .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding:20px;
+    }
+    .username{
+width: 30vw;
+    }
+
+
+ @media only screen and (min-width : 320px) and (max-width : 480px) {
+.image{
+    display:none;
+}
+.textfeild1,.inputdata{
+    display:flex;
+    flex-direction:column;;
+}
+    .text{
+font-size:12px;
+    }
+.signup{
+    border:none;
+    width: 86vw;
+ }
+ .textfeild1
+{
+    width: 96%;
+}
+}
+
+
+
+
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+    .image{
+        display:none;
+    }
+    .signup{
+        border:none;
+        display:flex;
+        flex-direction: column;
+        width: 84vw;
+    }
+    .textfeild1
+{
+    width: 96%;
+}
+}
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+    .image{
+        display:none;
+    }
+    .signup{
+        width: 45vw;
+        /* margin: 1%; */
+        margin-top: 29%;
+    }
+}
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+    .image{
+        display:none;
+    }
+    .signup{
+        width: 40vw;
+        border:none;
+        margin-left: 3%; 
+    }
+
+}
